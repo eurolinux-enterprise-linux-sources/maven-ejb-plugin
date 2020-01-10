@@ -1,6 +1,6 @@
 Name:           maven-ejb-plugin
 Version:        2.3
-Release:        8%{?dist}
+Release:        9%{?dist}
 Summary:        Maven EJB Plugin
 
 License:        ASL 2.0
@@ -53,6 +53,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.3-9
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Michal Srb <msrb@redhat.com> - 2.3-8
 - Install LICENSE and NOTICE files (Resolves: rhbz#983882)
 - Adapt to current guidelines
